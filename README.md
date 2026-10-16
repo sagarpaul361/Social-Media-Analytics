@@ -2,81 +2,110 @@
 
 ## 📌 Project Overview
 
-This project analyzes Apple's social media marketing performance using Excel to identify engagement trends, evaluate campaign effectiveness, compare social media platforms, and understand audience growth.
+An Excel-based marketing analytics project focused on evaluating Apple's social media performance, campaign effectiveness, audience engagement, and follower growth.
 
-The project uses post-level marketing data, engagement metrics, campaign metadata, and weekly follower statistics to generate actionable business insights.
+The project uses Pivot Tables, calculated metrics, and visualizations to identify performance patterns and generate data-driven marketing recommendations.
 
-## 🎯 Project Objectives
+## 🎯 Business Objectives
 
-- Compare engagement rates across social media platforms.
+- Compare social media platform engagement.
 - Identify top-performing posts and hashtags.
-- Analyze campaign performance using likes, clicks, and impressions.
-- Evaluate follower growth and audience retention indicators.
-- Support data-driven marketing decisions through Excel analysis and visualizations.
+- Evaluate content types using likes, shares, and comments.
+- Analyze campaign performance alongside advertising spend.
+- Track weekly follower growth across platforms.
+- Develop actionable recommendations for marketing strategy.
 
-## 🛠️ Tools & Technologies
+## 🛠️ Tools & Skills
 
 - Microsoft Excel
 - Pivot Tables and Pivot Charts
+- Data Cleaning and Data Preparation
 - Excel formulas and calculated metrics
-- Data Cleaning and Exploratory Data Analysis (EDA)
-- Marketing KPI Analysis
-- Data Visualization
+- Exploratory Data Analysis (EDA)
+- KPI Analysis and Data Visualization
+- Marketing Performance Analysis
 
 ## 📂 Dataset Overview
 
-The Excel workbook contains the following data sheets:
+The workbook contains three main data areas:
 
-- **Raw_post:** Post-level data, including platform, content type, hashtags, likes, shares, comments, clicks, reach, impressions, and campaign.
-- **Engagement Summary:** Weekly follower growth, unfollows, total followers, engagement rate, and advertising spend.
+- **Raw Post Data:** Platform, date, content type, hashtags, likes, shares, comments, clicks, reach, impressions, and campaign.
+- **Engagement Summary:** Weekly follower growth, unfollows, total followers, engagement rates, and advertising spend.
 - **Campaign Metadata:** Campaign dates, objectives, advertising spend, impressions, and engagement uplift.
 
-## 📊 Analysis Performed
+## 📊 Analysis & Visualizations
 
-### 1. Engagement Analysis
-- Compared engagement rates across platforms.
-- Identified high-engagement posts.
-- Evaluated interactions across social media content.
+### 1. Platform Performance
+- Compared average engagement rates across platforms.
+- Analyzed likes, shares, and comments by platform.
+- Identified differences in platform performance.
 
-### 2. Platform Performance Analysis
-- Compared engagement rates by platform.
-- Analyzed weekly new-follower growth across platforms.
+### 2. Top-Performing Posts
+- Ranked posts by engagement rate.
+- Identified high-performing product launches and event-related content.
+- Compared engagement across individual posts.
 
-### 3. Content & Hashtag Analysis
-- Identified frequently used hashtags.
-- Compared hashtag performance using likes and clicks.
-- Explored content performance patterns.
+### 3. Hashtag Analysis
+- Compared average clicks across hashtags.
+- Explored the performance of product and event-related hashtags.
+- Identified hashtags for further marketing experimentation.
 
-### 4. Campaign Performance Analysis
-- Compared campaign-level likes, clicks, and impressions.
-- Evaluated average engagement rates across campaigns.
-- Examined campaign objectives, spending, and reported engagement uplift.
+### 4. Content Type Analysis
+- Compared Video, Carousel, Image, and Tweet formats.
+- Evaluated likes, shares, and comments by content type and platform.
 
-### 5. Follower Growth & Retention Analysis
-- Evaluated weekly new followers and unfollows.
-- Compared audience growth across platforms.
-- Examined follower trends over time.
+### 5. Campaign & Advertising Analysis
+- Compared campaign engagement and performance metrics.
+- Examined advertising spend alongside engagement.
+- Explored whether higher spending corresponded with stronger engagement.
 
-## 🔍 Key Findings
+### 6. Follower Growth Analysis
+- Visualized weekly follower growth across platforms.
+- Compared new followers and audience growth patterns.
+- Identified changes in growth during campaign periods.
 
-- Twitter had the highest average engagement rate in the platform summary, at approximately **13.89%**.
-- The **#AppleEvent** hashtag was the most frequently used hashtag in the hashtag analysis, appearing in 51 posts.
-- The September 2025 Apple Event campaign had the highest total likes among the campaigns in the campaign summary, with **957,050 likes**.
-- The Apple Watch Ultra 2 Launch campaign had the highest average engagement rate in the campaign summary, at approximately **13.68%**.
+## 🔍 Key Insights
 
-*Note: These findings are based on the summaries in the supplied workbook. Metrics and calculations should be validated against the original data before making business decisions.*
+### Platform & Content Performance
+- Compared engagement rates across Twitter, LinkedIn, Instagram, and YouTube.
+- Analyzed likes, shares, and comments across Video, Carousel, and Image content.
+- Identified product launch and event-related posts among the top-performing posts by engagement rate.
+
+### Hashtag Performance
+- `#AppleEvent` was the most frequently used hashtag, appearing in 51 posts.
+- `#iPhone16Launch` recorded the highest average clicks in the hashtag performance summary, at approximately 1,811.
+- Product- and event-related hashtags were prominent in the analysis.
+
+### Campaign Performance
+- Apple Event September 2025 recorded the highest total likes in the campaign summary, at 957,050.
+- Apple Watch Ultra 2 Launch recorded an average engagement rate of 13.68% in the campaign comparison.
+- Campaign performance was evaluated using likes, clicks, impressions, engagement, and advertising spend.
+
+### Follower Growth & Advertising
+- Weekly follower growth fluctuated across platforms, with noticeable spikes during some periods.
+- The workbook's scatter plot suggests that advertising spend alone does not guarantee higher follower growth.
+- Content quality, campaign timing, and platform selection should be considered alongside advertising spend.
 
 ## 💡 Business Recommendations
+- Test event-related and product-launch hashtags in relevant campaigns.
+- Compare video, carousel, and image content using consistent engagement metrics.
+- Evaluate advertising efficiency using both campaign outcomes and spend.
+- Monitor weekly follower growth to identify successful campaign periods.
+- Validate KPI definitions before comparing results across different summaries.
+## 💡 Business Recommendations
 
-- Prioritize platforms and content formats that demonstrate strong engagement.
-- Test high-performing hashtags across relevant campaigns.
-- Evaluate campaign performance using engagement, clicks, impressions, and advertising spend together.
-- Monitor follower acquisition and unfollows to understand audience growth.
-- Use consistent KPI definitions to improve campaign comparisons.
+- Test high-performing content themes across relevant campaigns.
+- Select hashtags based on measured engagement and click performance.
+- Compare content formats using consistent KPIs.
+- Monitor follower acquisition and unfollows over time.
+- Evaluate advertising efficiency using spend alongside clicks, reach, impressions, and engagement.
+- Validate metric definitions before comparing platform or campaign rankings.
 
 ## 📁 Project File
 
-The analysis was conducted using an Excel workbook containing the raw data, summaries, and task-wise analysis.
+The Excel workbook includes the source data, analysis summaries, Pivot Tables, visualizations, and business insights.
+
+**Workbook:** `Apple Marketing Data .xlsx`
 
 ## 👨‍💻 Author
 
@@ -84,4 +113,5 @@ The analysis was conducted using an Excel workbook containing the raw data, summ
 
 Aspiring Data Analyst | Machine Learning Enthusiast
 
-[GitHub Profile](https://github.com/sagarpaul361)
+- GitHub: [sagarpaul361](https://github.com/sagarpaul361)
+- Project Repository: [Social-Media-Analytics](https://github.com/sagarpaul361/Social-Media-Analytics)
