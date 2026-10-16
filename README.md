@@ -107,6 +107,20 @@ The Excel workbook includes the source data, analysis summaries, Pivot Tables, v
 
 **Workbook:** `Apple Marketing Data .xlsx`
 
+## 📸 Project Screenshots
+
+### 1. Platform & Content Analysis
+![Platform Content Analysis](platform-content-analysis.PNG)
+
+### 2. Hashtag Performance Analysis
+![Hashtag Analysis](hashtag-analysis.png)
+
+### 3. Campaign Performance
+![Campaign Performance](campaign-performance.png)
+
+### 4. Follower Growth Analysis
+![Follower Growth Analysis](follower-growth-analysis2.png)
+
 ## 👨‍💻 Author
 
 **Sagar**
